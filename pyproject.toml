@@ -4,4 +4,16 @@ version = "0.1.0"
 description = "Add your description here"
 readme = "README.md"
 requires-python = ">=3.14"
-dependencies = []
+dependencies = [
+    "anthropic>=1.5.0",
+    "chromadb>=1.5.9",
+    "deepagents>=0.7.13",
+    "fastapi[standard]>=0.141.1",
+    "langchain>=1.4.0",
+    "langgraph>=1.2.11",
+    "ollama>=0.6.2",
+    "openai>=3.13.0",
+    "pydantic>=2.13.5",
+    "pydantic-ai>=2.43.0",
+    "qdrant-client>=1.19.0",
+]
